@@ -12,10 +12,10 @@ Before you run the sample code project in Xcode, set the run destination to an i
 
 ## To extract RGB, Depth and Point Cloud
 
-pixelBuffer, depthMap : RGB와 Depth 정보를 정의한다.
+pixelBuffer, depthMap : Defines RGB and Depth information.
 
-코드 내에 기입된 Projection 함수(센서들에 의해 지정되는 matrix)를 적용하여 Point Cloud data를 생성한다.
+Point Cloud data is created by applying the projection function (matrix specified by sensors) written in the code.
 
-각각의 2D 상의 pixel, Depth, 3D coordinates를 array로 저장한다.
+Each 2D pixel, RGB, depth, and 3D coordinates are stored as an array.
 
 ![image](https://user-images.githubusercontent.com/35245580/112245845-09f50380-8c95-11eb-9dda-b79e717379d3.png)
